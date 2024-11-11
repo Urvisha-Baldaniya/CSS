@@ -1,0 +1,37 @@
+.ri-google-play-fill{
+	color:#D83F31;
+	font-size:100px;
+}
+.ri-google-fill{
+	color:rgb(255,51,153);
+	font-size:100px;
+}
+.ri-apple-fill{
+	
+	font-size:90px;
+}
+.ri-chat-settings-line{
+	color:gray;
+	font-size:80px;
+}
+.box{
+	width:300px;
+	height:300px;
+	background-color:rgba(11, 54, 227, 0.54);
+	border-radius:30%;
+}
+.box1{
+	width:300px;
+	height:300px;
+	background:linear-gradient(70deg,pink, blue,orange);
+}
+.box2{
+	width:300px;
+	height:300px;
+	background:radial-gradient(red, blue,orange,green);
+}
+.box3{
+	width:300px;
+	height:300px;
+	background:conic-gradient(purple, red,black,purple);
+}

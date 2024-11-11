@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+.hello, .he{
+	color:red;
+}
+.hey ,.hello{
+	font-size:30px;
+}
+ol{
+	margin-left:50px;
+}
+ol li:first-letter{
+	font-size:20px;
+	color:green;
+}
+ol li:first-child{
+	background-color:red;
+}
+ol li:last-child{
+	background-color:pink;
+}
+ol li:nth-child(5){
+	background-color:purple;
+}
+ul{
+	margin-left:50px;
+}
+ul li:nth-child(5n-1){
+	
+color:orange;
+}
+input{
+	display:block;
+	margin-bottom:30px;
+}
+div input:first-child::placeholder{
+	color:red;
+}
+div input:last-child::placeholder{
+	color:green;
+}
+div input:nth-child(4)::placeholder{
+	color:pink;
+}
+.hello p::selection{
+	background-color:black;
+	color:white;
+}
+.hey p::selection{
+	background-color:red;
+	color:green;
+}
+.he p::selection{
+	background-color:yellow;
+	color:purple;
+	
+}
+ol li::selection{
+	background-color:purple;
+	color:pink;
+	
+}
+ul li::selection{
+	background-color:green;
+	color:pink;
+}
+div input::selection{
+	background-color:orange;
+	color:green;
+}

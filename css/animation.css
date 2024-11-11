@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color:black;
+}
+.box{
+	width:100px;
+	height:100px;
+	border:2px solid white;
+	animation:2s move infinite alternate;
+}
+@keyframes move{
+	25%{
+		transform:translatex(500px);
+		background-color:blue;
+	}
+	50%{
+		transform:translatex(500px) translatey(500px);
+		background-color:pink;
+		border-radius:50%;
+	}
+	75%{
+		transform:translatey(500px);
+		background-color:purple;
+		border-radius:30%;
+	}
+	100%{
+		background-color:orange;
+	}
+}

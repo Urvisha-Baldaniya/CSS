@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+.box{
+	
+	width:500px;
+	height:500px;
+	background-color:black;
+	color:white;
+	padding:20px;
+	margin:30px;
+	display:inline-block;
+	
+	
+}
+
+.box1{
+	
+	width:500px;
+	height:500px;
+	background-color:red;
+	color:yellow;
+	padding:20px;
+	margin:30px;
+	display:inline-block;
+	
+	
+}
+
+.box2{
+	
+	width:500px;
+	height:500px;
+	background-color:pink;
+	color:blue;
+	padding:20px;
+	margin:30px;
+	
+}
+.img{
+	background:url(../images/101.jpg);
+	width:600px;
+	height:600px;
+	background-size:cover;
+	background-position:center;
+	border:5px blue solid;
+	border-radius:51% 49% 46% 54% / 18% 17% 83% 82% ;
+	
+}
+

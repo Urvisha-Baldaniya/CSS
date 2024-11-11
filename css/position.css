@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.box{
+	width:500px;
+	height:500px;
+	background-color:blue;
+	margin:50px;
+	position:relative;
+}
+.box1,.box2{
+	width:200px;
+	height:200px;
+	background-color:pink;
+	position:absolute;
+	right:-40px;
+	bottom:-40px;
+	border:10px white solid;
+	
+}
+.box2{
+	background-color:green;
+	width:100px;
+	height:100px;
+	
+	
+}
+img{
+	position:fixed;
+	right:30px;
+	bottom:30px;
+	border:dashed 3px skyblue;
+	border-radius:50%;
+	
+	
+}
+p{
+	font-size:50px;
+	color:red;
+}
+.header{
+	height:50px;
+	background-color:red;
+	position:sticky;
+	top:0px;
+	padding:5px;
+	
+}
+marquee{
+	font-size:30px;
+}

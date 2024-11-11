@@ -1,0 +1,40 @@
+.ri-instagram-fill{
+	color:red;
+	font-size:100px;
+   
+}
+p{
+	font-family: 'Noto Serif', serif;
+	font-weight:500;
+	color:blue;
+	text-indent:200px;
+	text-align:justify;
+	letter-spacing:1px;
+	word-spacing:4px;
+	text-transform:capitalize;
+	line-height:2;
+}
+.link{
+	color:#313866;
+	text-decoration:none;
+}
+.text{
+	font-family: 'Noto Serif', serif;
+	text-align:right;
+}
+.ri-twitter-line{
+	color:#313866;
+	font-size:50px;
+}
+.ri-facebook-circle-fill{
+    color:#279EFF;
+	font-size:50px;	
+}
+.ri-snapchat-fill{
+	color:yellow;
+	font-size:50px;	
+}
+a{
+	text-decoration:none;
+	color:#79155B;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>icon hover</title>
+   <link href="css/all.min.css" rel="stylesheet" type="text/css"/>
+   <style>
+      *{
+	     margin:0;
+		 padding:0;
+		 box-sizing:border-box;
+	  }
+	  .twitter{
+	    font-size:20px;
+		color:green;
+		border:2px solid blue;
+		margin:100px 100px;
+		position:absolute;
+		padding:20px;
+		diplay:inline-block;
+	  }
+	  .fa-brands fa-twitter{
+	     display:inline-block;
+		 transition:0.4s;
+	  }
+	  .twitter:hover .fa-brands fa-twitter{
+	     transform:rotate(360deg);
+		 position:relative;
+		 
+	  }
+	  .twitter:hover{
+	    border-radius:50%;
+		 border:2px dashed orange;
+		 color:blue;
+	  }
+	 .insta{
+	    position:absolute;
+		diplay:inline-block;
+		font-size:30px;
+		color:red;
+		margin:200px;
+	 }
+	 .fa-brands fa-twitter{
+	   display:inline-block;
+		 transition:0.4s;
+	 }
+	 .insta:hover{
+	    box-shadow:2px 2px 5px 1px red;
+		border:2px solid red;
+		border-radius:50%;
+		padding:10px;
+		
+		
+	 }
+	
+	 
+   </style>
+</head>
+<body>
+    
+	   <a href="javascript:void(0)" class="twitter">
+	      <i class="fa-brands fa-twitter"></i>
+	   </a>
+	
+	
+	<a href="javascript:void(0)" class="insta">
+	   <i class="fa-brands fa-instagram"></i>
+	</a>
+</body>
+</html>

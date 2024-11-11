@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.box{
+	width:200px;
+	height:200px;
+	background-color:green;
+	margin:50px;
+	transition:all 4s linear;
+}
+.box:hover{
+	transform:rotate(360deg);
+	background-color:orange;
+}
+.box1{
+	width:200px;
+	height:200px;
+	background-color:pink;
+	margin:50px;
+	transition:all 2s ease;
+}
+.box1:hover{
+	transform:translate(100px,200px);
+	background-color:skyblue;
+}
+.box2{
+	width:200px;
+	height:200px;
+	background-color:black;
+	margin:50px;
+	transition:all 5s ease-in;
+}
+.box2:hover{
+	transform:skew(60deg);
+	background-color:red;
+}
+.box3{
+	width:200px;
+	height:200px;
+	background-color:purple;
+	margin:50px;
+	transition:all 3s ease-out;
+}
+.box3:hover{
+	transform:scale(0.5);
+	background-color:yellow;
+}
