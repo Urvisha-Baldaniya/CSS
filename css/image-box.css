@@ -27,6 +27,9 @@
 .box1{
 	background-color:pink;
 }
+.box1 img{
+	padding: 30px;
+}
 .box2:hover .img3{
 	transform:translate(-10px);
 }
